@@ -60,7 +60,8 @@ class MainActivity : AppCompatActivity() {
 
         val numberOfGuesses = 3
         val numberOfLetters = 4
-        val target = getRandomFourLetterWord()
+        //val target = getRandomFourLetterWord()
+        val target = "WORD"
         var counter = 0
         guessButton.isEnabled = false
 
