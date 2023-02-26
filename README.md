@@ -25,9 +25,10 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<video controls><source src="https://i.imgur.com/XUU59ZJ.mp4" type="video/mp4"></video>
-<img src='https://imgur.com/a/w5EGONW' title='Win' width='' alt='Win' />
-<img src='https://imgur.com/a/DGVWO1j' title='Lose' width='' alt='Lose' />
+<img src='https://www.dropbox.com/s/o8zcv9uwqeemel7/win.gif' title='Win Walkthrough' width='' alt='Win' />
+<img src='https://www.dropbox.com/s/ft4l5hahphw6l1q/lose.gif' title='Lose Walkthrough' width='' alt='Lose' />
+
+
 
 ## License
 
