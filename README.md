@@ -25,6 +25,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+<video controls><source src="https://i.imgur.com/XUU59ZJ.mp4" type="video/mp4"></video>
 <img src='https://imgur.com/a/w5EGONW' title='Win' width='' alt='Win' />
 <img src='https://imgur.com/a/DGVWO1j' title='Lose' width='' alt='Lose' />
 
