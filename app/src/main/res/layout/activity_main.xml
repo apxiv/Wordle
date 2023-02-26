@@ -50,7 +50,7 @@
                 android:textColor="@color/white"
                 android:text=""
                 android:background="@drawable/border"
-                android:layout_margin="16dp" />
+                android:layout_margin="6dp" />
 
             <TextView
                 android:id="@+id/letter01"
@@ -63,7 +63,7 @@
                 android:textColor="@color/white"
                 android:text=""
                 android:background="@drawable/border"
-                android:layout_margin="16dp"/>
+                android:layout_margin="6dp"/>
 
             <TextView
                 android:id="@+id/letter02"
@@ -76,7 +76,7 @@
                 android:textColor="@color/white"
                 android:text=""
                 android:background="@drawable/border"
-                android:layout_margin="16dp"/>
+                android:layout_margin="6dp"/>
 
             <TextView
                 android:id="@+id/letter03"
@@ -89,7 +89,7 @@
                 android:fontWeight="700"
                 android:textSize="60sp"
                 android:background="@drawable/border"
-                android:layout_margin="16dp"/>
+                android:layout_margin="6dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -109,7 +109,7 @@
                 android:textColor="@color/white"
                 android:text=""
                 android:background="@drawable/border"
-                android:layout_margin="16dp"/>
+                android:layout_margin="6dp"/>
 
             <TextView
                 android:id="@+id/letter11"
@@ -122,7 +122,7 @@
                 android:fontWeight="700"
                 android:text=""
                 android:background="@drawable/border"
-                android:layout_margin="16dp"/>
+                android:layout_margin="6dp"/>
 
             <TextView
                 android:id="@+id/letter12"
@@ -135,7 +135,7 @@
                 android:textColor="@color/white"
                 android:text=""
                 android:background="@drawable/border"
-                android:layout_margin="16dp"/>
+                android:layout_margin="6dp"/>
 
             <TextView
                 android:id="@+id/letter13"
@@ -148,7 +148,7 @@
                 android:textColor="@color/white"
                 android:text=""
                 android:background="@drawable/border"
-                android:layout_margin="16dp"/>
+                android:layout_margin="6dp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -168,7 +168,7 @@
                 android:textColor="@color/white"
                 android:text=""
                 android:background="@drawable/border"
-                android:layout_margin="16dp"/>
+                android:layout_margin="6dp"/>
 
             <TextView
                 android:id="@+id/letter21"
@@ -181,7 +181,7 @@
                 android:fontWeight="700"
                 android:text=""
                 android:background="@drawable/border"
-                android:layout_margin="16dp" />
+                android:layout_margin="6dp" />
 
             <TextView
                 android:id="@+id/letter22"
@@ -194,7 +194,7 @@
                 android:textColor="@color/white"
                 android:text=""
                 android:background="@drawable/border"
-                android:layout_margin="16dp"/>
+                android:layout_margin="6dp"/>
 
             <TextView
                 android:id="@+id/letter23"
@@ -207,7 +207,7 @@
                 android:textColor="@color/white"
                 android:text=""
                 android:background="@drawable/border"
-                android:layout_margin="16dp"/>
+                android:layout_margin="6dp"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -237,6 +237,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="28dp"
+        android:textFontWeight="700"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textColor="@color/dark_green"
         android:text="@string/guess"
         android:radius="@drawable/border"/>
     </LinearLayout>

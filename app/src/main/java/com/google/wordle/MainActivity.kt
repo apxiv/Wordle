@@ -60,6 +60,7 @@ class MainActivity : AppCompatActivity() {
 
         val numberOfGuesses = 3
         val numberOfLetters = 4
+        //val target = "WORD"
         val target = getRandomFourLetterWord()
         var counter = 0
         guessButton.isEnabled = false
@@ -101,11 +102,13 @@ class MainActivity : AppCompatActivity() {
             }
             counter++
             editTextWord.text.clear()
-            if (counter == numberOfGuesses) {
+            if (counter == numberOfGuesses && guess != target) {
                 guessButton.visibility = View.INVISIBLE
                 editTextWord.visibility = View.INVISIBLE
                 revealGuess.visibility = View.VISIBLE
                 revealGuess.text = target
+                //revealGuess.setBackgroundColor(Color.parseColor("#A9293E"))
+                revealGuess.setTextColor(Color.parseColor("#A9293E"))
             }
         }
 
@@ -122,8 +125,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun letterColor(currentGuess: Char, target: String, currentColumn: Int): Int {
         return if (currentGuess in target) {
-            if (currentGuess == target[currentColumn]) Color.GREEN else Color.YELLOW
-        } else Color.GRAY
+            if (currentGuess == target[currentColumn]) Color.parseColor("#6AAA64") else Color.parseColor("#C9B458")
+        } else Color.parseColor("#787C7E")
     }
 
     private fun checkGuess(guess: String, target: String, editText: EditText, button: Button) {
