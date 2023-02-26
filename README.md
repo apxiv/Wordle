@@ -25,8 +25,8 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='./app/src/main/res/drawable/win.gif'>' title='Win Walkthrough' width='' alt='Win' />
-<img src='./app/src/main/res/drawable/lose.gif'>' title='Lose Walkthrough' width='' alt='Lose' />
+<img src='./app/src/main/res/drawable/win.gif'>' title='Win Walkthrough' width='540' height='1140' alt='Win' />
+<img src='./app/src/main/res/drawable/lose.gif'>' title='Lose Walkthrough' width='540' height='1140' alt='Lose' />
 
 
 
